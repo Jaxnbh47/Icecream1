@@ -6,23 +6,22 @@ export function AdDesign() {
     //variable to track the state, meaning the value
     //there is a function that is used to change the state
 
-    const [flavor, setFlavor] = useState ("Chocolate");
-    const [isLight, setIsLight] = useState(true);
-    const [fontSize, setFontSize] = useState(24)
+    const [flavor, setFlavor] = useState<String>("Chocolate");
+    const [isLight, setIsLight] = useState<boolean>(true);
+    const [fontSize, setFontSize] = useState<number>(24)
 
   return (
     <div id="AdDesign">
       <h2>Ad Design</h2>
 
       <h2>What to support:</h2>
-      <Ad flavor={flavor} isLight={isLight} fontSize={fontSize} />
+      <Ad flavor={flavor} isLight={isLight} fontSize={fontSize}/>
       <div className="button-bar">
       <button onClick={() => setFlavor("Chocolate")}>Chocolate</button>
       <button onClick={() => setFlavor("Vanilla")}>Vanilla</button>
       <button onClick={() => setFlavor("Strawberry")}>Strawberry</button>
       </div>
 
-      
       <h2>Color Theme</h2>
       <div className="button-bar">
       <button onClick={() => setIsLight(true)}>Light</button>
