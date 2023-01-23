@@ -12,10 +12,8 @@ export function Ad(props:AdProperties) {
     let className = "Ad " + (props.isLight ? "Ad--Light" : "Ad--dark");
     return(
         <div className={className}>
-            <p>Vote For:</p>
+            <p>Vote For</p>
             <p style={{fontSize: props.fontSize}}>{props.flavor}</p>
-            <p>{props.isLight.toString()}</p>
-            <p>{props.fontSize}</p>
         </div>
     )
 }

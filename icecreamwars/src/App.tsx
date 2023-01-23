@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Header } from './components/Header';
-import WebFont from 'webfontloader'
-import { AdDesign } from './components/AdDesign';
+import { AdDesign } from './components/AdDesigner';
+import { Votes } from './components/Votes';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
   <Header />
   <div className="main">
   <AdDesign />
+  <Votes/>
   </div>
   </>
   );
