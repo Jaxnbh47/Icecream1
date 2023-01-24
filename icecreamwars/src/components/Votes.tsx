@@ -44,7 +44,7 @@ export function Votes() {
             </p>
             <progress className="progress-Vanilla" value={vanillaVotes / getTotal()}></progress>
             </>
-        };
+        }
     </div>
  )
 }

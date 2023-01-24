@@ -1,5 +1,18 @@
 .Ad--dark {
     color: white;
     background-color: black;
-    border-color: white;
+    border: 5px solid grey;
+}
+.Ad--Light{
+    background-color: white;
+    border: 5px solid black;
+
+}
+
+.Ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }

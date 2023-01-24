@@ -8,7 +8,7 @@ export function AdDesign() {
 
     const [flavor, setFlavor] = useState<String>("Chocolate");
     const [isLight, setIsLight] = useState<boolean>(true);
-    const [fontSize, setFontSize] = useState<number>(24)
+    const [fontSize, setFontSize] = useState<number>(24);
 
   return (
     <div id="AdDesign">
